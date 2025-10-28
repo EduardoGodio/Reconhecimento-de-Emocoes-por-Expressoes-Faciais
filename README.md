@@ -34,16 +34,16 @@ Para alcançar o objetivo, as seguintes tecnologias foram combinadas:
 
 ## ⚙️ Instalação e Configuração
 
-Siga os passos abaixo para configurar o ambiente de desenvolvimento local.
+Siga os passos abaixo para configurar o ambiente de desenvolvimento local.  
 
-**Crie um ambiente virtual** (Recomendado):
+1. **Crie um ambiente virtual** (Recomendado):  
     ```sh
     python -m venv venv
     source venv/bin/activate  # No Windows: venv\Scripts\activate
     ```
 
-**Instale as dependências:**
-    (Note: O nome padrão do arquivo é `requirements.txt`)
+2. **Instale as dependências:**  
+(Observação: O nome padrão do arquivo é `requirements.txt`)  
     ```sh
     pip install -r requirements.txt
     ```
