@@ -51,7 +51,7 @@ Siga os passos abaixo para configurar o ambiente de desenvolvimento local.
 3. **Baixar o NGROK na Microsoft Store(Recomendado):**  
 3.1. Acessar: __https://apps.microsoft.com/detail/9MVS1J51GMK6?hl=neutral&gl=BR&ocid=pdpshare__
 
-3.2 Após concluir a instalação, obter a sua URL e substituir no script `📄 startServer.bat`.  
+3.2. Após concluir a instalação, obter a sua URL e substituir no script `📄 startServer.bat`.  
 (Opcional): Substituir URL também no script `📄 manualPost.py` caso queira testar POSTs manualmente, localizado dentro do diretório `📁 Serverconfig`.
 
 4. **Iniciar o servidor local e público:**
