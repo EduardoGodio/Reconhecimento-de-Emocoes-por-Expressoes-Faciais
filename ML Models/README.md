@@ -43,4 +43,5 @@ No final, o script exibe uma grade com todas as imagens que testou. Cada imagem 
 ├── 📄 loadModel.py  
 ├── 📄 README.md  
 ├── 📄 requirements.txt  
-└── 📄 trainingML.py
+└── 📄 trainingML.py  
+
