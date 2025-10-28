@@ -48,6 +48,26 @@ Siga os passos abaixo para configurar o ambiente de desenvolvimento local.
     pip install -r requirements.txt
     ```
 
+3. **Baixar o NGROK na Microsoft Store(Recomendado):**
+Acessar: __https://apps.microsoft.com/detail/9MVS1J51GMK6?hl=neutral&gl=BR&ocid=pdpshare__
+
+Após concluir a instalação, obter a sua URL e substituir no script `📄 startServer.bat`.  
+(Opcional): Substituir URL também no script `📄 manualPost.py` caso queira testar POSTs manualmente, localizado dentro do diretório `📁 Serverconfig`.
+
+4. **Iniciar o servidor local e público:**
+* Opção 1(Recomendada): Executar o script `📄 startServer.bat` irá inicializar os dois servidores
+* Opção 2: Funcionará da mesma forma, porém será feita manualmente a sequência indicada no script de inicialização
+   * **Iniciar servidor local**:  
+Basta executar o script `📄 server.py` localizado dentro do diretório `📁 Serverconfig`.  
+      ```py
+     python server.py
+     ```
+   * **Abrir servidor público**:  
+Executar comando abaixo no terminal.
+      ```sh
+     ngrok http 5000
+     ```
+
 ## 📁 Hierarquia do Projeto
 / (Diretório Raiz)  
 ├── 📁 ML Models/  
