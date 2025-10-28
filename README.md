@@ -27,10 +27,10 @@ Para alcançar o objetivo, as seguintes tecnologias foram combinadas:
 
 #### Backend (API):
 
-- Python: Linguagem principal para o desenvolvimento da API.
- - Flask: Utilizado para criar os endpoints da API, gerenciar as requisições HTTP e enviar as respostas.
- - OpenCV: Fundamental para o pré-processamento. Usada para decodificar a imagem recebida, detectar o rosto usando Haar Cascades e preparar a imagem para o modelo de treinamento.
- - TensorFlow/Keras: Utilizada para treinar e carregar o modelo de classificação de emoções tendo em base o dataset FER2013.
+* Python: Linguagem principal para o desenvolvimento da API.
+    * Flask: Utilizado para criar os endpoints da API, gerenciar as requisições HTTP e enviar as respostas.
+    * OpenCV: Fundamental para o pré-processamento. Usada para decodificar a imagem recebida, detectar o rosto usando Haar Cascades e preparar a imagem para o modelo de treinamento.
+    * TensorFlow/Keras: Utilizada para treinar e carregar o modelo de classificação de emoções tendo em base o dataset FER2013.
 
 ## ⚙️ Instalação e Configuração
 
